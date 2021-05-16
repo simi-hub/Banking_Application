@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\BankingRecords.dir/objects.a
+C:\Users\simil\mingw64\bin\ar.exe cr CMakeFiles\BankingRecords.dir/objects.a @CMakeFiles\BankingRecords.dir\objects1.rsp
+C:\Users\simil\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BankingRecords.dir/objects.a -Wl,--no-whole-archive -o BankingRecords.exe -Wl,--out-implib,libBankingRecords.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BankingRecords.dir\linklibs.rsp
